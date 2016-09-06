@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+        "BowlingKata\\": "src"
+    }
+  },
+  "require-dev": {
+    "crysalead/kahlan": "^2.5"
+  },
+  "scripts": {
+    "test": "kahlan --reporter=verbose"
+  }
+}
